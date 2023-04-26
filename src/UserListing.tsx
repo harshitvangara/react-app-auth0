@@ -10,8 +10,7 @@ export function UserListing() {
   const [username, setUsername] = useState("");
   const [newUsername, setNewUsername] = useState("");
 
-  //const { user } = useAuth0();
- // console.log(user,"objectuser");
+  
   
   return (
     <div style={{display:'flex', justifyContent:'center'}}>
