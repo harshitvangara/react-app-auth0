@@ -1,4 +1,4 @@
-### Auth0-React-App
+### React-App-Auth0
 In the project directory, you can run:
 
 `npm install` 
