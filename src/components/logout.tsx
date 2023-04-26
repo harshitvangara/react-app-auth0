@@ -21,7 +21,7 @@ export const  Logout = () => {
         <Menu
         width={76}
         position="bottom-end"
-        // transition="pop-top-right"
+        transition="pop-top-right"
         onClose={() => setUserMenuOpened(false)}
         onOpen={() => setUserMenuOpened(true)}
       >
