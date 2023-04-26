@@ -1,11 +1,10 @@
-import Loading from "./components/Loading";
 import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 import { useState } from "react";
 import "./Users.css"
 import { useSelector, useDispatch } from "react-redux";
 import { addUser, deleteUser, updateUsername } from "./features/Users";
 export function UserListing() {
-  const userList = useSelector((state) => state.users.value);
+  const userList = useSelector((state:any) => state.users.value);
   const dispatch = useDispatch();
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
@@ -84,6 +83,4 @@ export function UserListing() {
   );
 }
 
-export default withAuthenticationRequired(UserListing, {
-  onRedirecting: () => <Loading />,
-});
+export default withAuthenticationRequired(UserListing) 

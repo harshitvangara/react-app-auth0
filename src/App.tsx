@@ -5,7 +5,7 @@ import { UserListing } from './UserListing';
 import { useAuth0 } from "@auth0/auth0-react";
 import {createBrowserHistory} from "history";
 import { Welcome } from './components/Welcome';
-import Loading from './components/Loading';
+//import Loading from './components/Loading';
 import { BrowserRouter as Router} from "react-router-dom";
 const history = createBrowserHistory();
 
@@ -19,9 +19,9 @@ function App() {
     }
 
     
-  if (isLoading) {
-    return <Loading />;
-  }
+  // if (isLoading) {
+  //   return <Loading />;
+  // }
   return (
 
     <Router>
