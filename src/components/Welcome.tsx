@@ -33,7 +33,10 @@ export  function Welcome() {
     <ThemeProvider theme={customTheme}>
       <MyThemeComponent>Welcome to my App</MyThemeComponent>
     </ThemeProvider>
-     <MyComponent>A web application that allows users to create and manage a list of tasks</MyComponent>
+     <MyComponent>A web application that allows users to create and manage a list of tasks
+     The application built using React and TypeScript ,State management library such as Redu-toolKit and 
+     authentication using a third-party service such as Auth0
+     </MyComponent>
      </>
   );
 }
