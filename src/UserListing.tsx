@@ -1,4 +1,4 @@
-import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
+import { withAuthenticationRequired } from "@auth0/auth0-react";
 import { useState } from "react";
 import "./Users.css"
 import { useSelector, useDispatch } from "react-redux";
