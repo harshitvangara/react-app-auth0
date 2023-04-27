@@ -24,7 +24,7 @@ export function UserListing() {
           onChange={(event) => {
             setUsername(event.target.value);
           }}
-          className="field"
+          
         />
         <button
 
@@ -49,7 +49,7 @@ export function UserListing() {
               <h1> {user.name}</h1>
               <h1> {user.username}</h1>
               <input
-              className="field"
+             
                 type="text"
                 placeholder="New taskname..."
                 onChange={(event) => {
